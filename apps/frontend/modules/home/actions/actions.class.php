@@ -27,7 +27,9 @@ class homeActions extends sfActions
   }
   
   public function executeCheckState(sfWebRequest $request)
-  {
+  {   $this->getContext()->getConfiguration()->loadHelpers('Asset');
+      $c_image = image_path('control.png',true);
+      $w_image = image_path('warning.png',true);
       $warning = array();
       $event = sensor_eventTable::getInstance()->createQuery('e')->
                 select()->
@@ -35,9 +37,13 @@ class homeActions extends sfActions
                 limit(1)->
                 orderBy('e.created_at desc')->
                 execute();
+    
+        
       if(!empty($event[0])){
           if(strlen($event[0]['description']) > 0){
-              $warning[]=array('id'=>$event[0]['id'],'description'=>$event[0]['description']);
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$w_image);
+          }else{
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$c_image);
           }
       }
       
@@ -49,7 +55,9 @@ class homeActions extends sfActions
                 execute();
       if(!empty($event[0])){
           if(strlen($event[0]['description']) > 0){
-              $warning[]=array('id'=>$event[0]['id'],'description'=>$event[0]['description']);
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$w_image);
+          }else{
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$c_image);
           }
       }
       
@@ -62,10 +70,10 @@ class homeActions extends sfActions
         
       if(!empty($event[0])){
           if(strlen($event[0]['description']) > 0){
-              $warning[]=array('id'=>$event[0]['id'],'description'=>$event[0]['description'],'image'=>'');
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$w_image);
+          }else{
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$c_image);
           }
-      }else{
-          
       }
       
       $event = sensor_eventTable::getInstance()->createQuery('e')->
@@ -76,10 +84,16 @@ class homeActions extends sfActions
                 execute();
        if(!empty($event[0])){
           if(strlen($event[0]['description']) > 0){
-              $warning[]=array('id'=>$event[0]['id'],'description'=>$event[0]['description']);
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$w_image);
+          }else{
+              $warning[]=array('id'=>$event[0]['place_id'],'description'=>$event[0]['description'],'image'=>$c_image);
           }
       }
       
      return $this->renderText(json_encode($warning));
+  }
+  
+  function executeShowInfo(sfWebRequest $request){
+      $this->id = $request->getParameter('id');
   }
 }

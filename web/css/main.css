@@ -61,9 +61,14 @@ h1{ margin: 0px;font-size: 40px; color: #d33;font-weight:lighter; }
     margin-bottom: 20px;
     border-bottom:solid 1px #CCC;
     font-size:18px;
+    color: #d33;
 }
 #content{
     position:relative;
+}
+
+#search_bar{
+    margin-bottom:10px;
 }
 
 a{

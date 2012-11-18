@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&hl=it"></script>
   </head>
   <body>

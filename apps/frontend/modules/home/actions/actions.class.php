@@ -96,4 +96,7 @@ class homeActions extends sfActions
   function executeShowInfo(sfWebRequest $request){
       $this->id = $request->getParameter('id');
   }
+  
+  function executeLayout(sfWebRequest $request){
+  }
 }

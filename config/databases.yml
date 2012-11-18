@@ -1,10 +1,18 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/07-Databases
 
+prod:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn:      mysql:host=localhost;dbname=admin_hackathon
+      username: admin_hackathon
+      password: hackathon
+      
 all:
   doctrine:
     class: sfDoctrineDatabase
     param:
       dsn:      mysql:host=localhost;dbname=h-emergenze
       username: root
-      password: 
+      password: root

@@ -1,0 +1,90 @@
+users:
+  actAs:
+    Timestampable: ~
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: { type: clob }
+    surname: { type: clob }
+    state: { type: string(255) }
+    avatar: { type: clob}
+    place_id: { type: integer }
+  relations:
+    places:
+      class: places
+      local: place_id
+      foreign: id
+      type: one
+      foreignType: one
+      foreignAlias: user
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+    
+places:
+  actAs:
+    Geographical:
+      latitude:
+        options:
+          scale: 8
+      longitude:
+        options:
+          scale: 8  
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: { type: clob }
+    place_type: { type: clob }
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+
+sensor_log:
+  actAs:
+    Timestampable: ~
+    Geographical:
+      latitude:
+        options:
+          scale: 8
+      longitude:
+        options:
+          scale: 8
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    temp: { type: boolean, default: false }
+    water: { type: boolean, default: false }
+    gas: { type: boolean, default: false }
+    earthquake: { type: boolean, default: false }
+    place_id: { type: integer }
+  relations:
+    places:
+      class: places
+      local: place_id
+      foreign: id
+      type: one
+      foreignType: one
+      foreignAlias: log
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+ 
+sensor_event:
+  actAs:
+    Timestampable: ~
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    temp: { type: boolean, default: false }
+    water: { type: boolean, default: false }
+    gas: { type: boolean, default: false }
+    earthquake: { type: boolean, default: false }
+    description: { type: string(255) }
+    place_id: { type: integer }
+  relations:
+    places:
+      class: places
+      local: place_id
+      foreign: id
+      type: one
+      foreignType: one
+      foreignAlias: event
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8

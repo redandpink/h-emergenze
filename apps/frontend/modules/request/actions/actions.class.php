@@ -99,6 +99,8 @@ class requestActions extends sfActions
           $resp[$i]['status']= $user['state'];
           if(!empty($user['avatar'])){
             $resp[$i]['avatar']= image_path('avatar/'.$user['avatar'],true);
+          }else{
+              $resp[$i]['avatar'] = '';
           }
           $resp[$i]['place_id']= $user['place_id'];
           $resp[$i]['created_at']= $user['created_at'];
@@ -126,6 +128,8 @@ class requestActions extends sfActions
           $resp[$i]['surname']= $user['surname'];
           if(!empty($user['avatar'])){
               $resp[$i]['avatar']= image_path('avatar/'.$user['avatar'],true);
+          }else{
+              $resp[$i]['avatar'] = '';
           }
           $resp[$i]['status']= $user['state'];
           $resp[$i]['created_at']= $user['created_at'];

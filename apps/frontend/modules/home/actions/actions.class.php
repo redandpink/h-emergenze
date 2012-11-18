@@ -62,8 +62,10 @@ class homeActions extends sfActions
         
       if(!empty($event[0])){
           if(strlen($event[0]['description']) > 0){
-              $warning[]=array('id'=>$event[0]['id'],'description'=>$event[0]['description']);
+              $warning[]=array('id'=>$event[0]['id'],'description'=>$event[0]['description'],'image'=>'');
           }
+      }else{
+          
       }
       
       $event = sensor_eventTable::getInstance()->createQuery('e')->
@@ -78,7 +80,6 @@ class homeActions extends sfActions
           }
       }
       
-      var_dump($warning);exit;
-     return $this->renderText(json_encode($event));
+     return $this->renderText(json_encode($warning));
   }
 }

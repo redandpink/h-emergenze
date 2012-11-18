@@ -4,6 +4,7 @@
         doPoll();
     });
     
+    var gMarkers = [];
     function load() {
         //definizione coordinate su cui centrare la mappa
         var lat_centro = "45.62899";
@@ -35,13 +36,19 @@
 	    	google.maps.event.addListener(marker, 'click', function() {
                     map.setCenter(marker.getPosition());
 	    	    infowindow.open( map, marker);
-	    	});   
+	    	});
+                
+                gMarkers[$(this).attr('id')] = marker;
          });
          });
         }
         
         function doPoll(){
             $.post('<?php echo url_for('home/checkState')?>', function(data) {
+                $.each($.parseJSON(data), function() {
+                    var marker = gMarkers[this.id];
+                    
+                });
                 setTimeout(doPoll,5000);
             });
         }

@@ -3026,3 +3026,1547 @@ Nov 18 04:28:31 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_
 Nov 18 04:28:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
 Nov 18 04:28:31 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.02 ms (1)
 Nov 18 04:28:31 symfony [info] {sfWebResponse} Send content (21288 o)
+Nov 18 10:45:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 10:45:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:45:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:45:02 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 10:45:02 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 10:45:02 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 10:45:02 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 10:45:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 10:45:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:45:02 symfony [info] {sfWebDebugLogger} Configuration 25.08 ms (9)
+Nov 18 10:45:02 symfony [info] {sfWebDebugLogger} Factories 222.23 ms (1)
+Nov 18 10:45:02 symfony [info] {sfWebDebugLogger} Action "home/index" 0.27 ms (1)
+Nov 18 10:45:02 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 70.98 ms (1)
+Nov 18 10:45:02 symfony [info] {sfWebResponse} Send content (30383 o)
+Nov 18 10:58:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 10:58:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:58:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:58:07 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 10:58:07 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 10:58:07 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 10:58:07 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 10:58:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 10:58:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:58:07 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (9)
+Nov 18 10:58:07 symfony [info] {sfWebDebugLogger} Factories 9.54 ms (1)
+Nov 18 10:58:07 symfony [info] {sfWebDebugLogger} Action "home/index" 0.29 ms (1)
+Nov 18 10:58:07 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 5.64 ms (1)
+Nov 18 10:58:07 symfony [info] {sfWebResponse} Send content (30660 o)
+Nov 18 10:58:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 10:58:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:58:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:58:08 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 10:58:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 10:58:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 10:58:08 symfony [info] {homeActions} Change layout to ""
+Nov 18 10:58:08 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 10:58:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 10:58:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 10:58:08 symfony [info] {sfWebDebugLogger} Configuration 2.17 ms (9)
+Nov 18 10:58:08 symfony [info] {sfWebDebugLogger} Factories 8.41 ms (1)
+Nov 18 10:58:08 symfony [info] {sfWebDebugLogger} Action "home/markers" 162.69 ms (1)
+Nov 18 10:58:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 10:58:08 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 27.93 ms (1)
+Nov 18 10:58:08 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 10:58:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test_add with parameters array (  'module' => 'test_add',  'action' => 'index',)
+Nov 18 10:58:19 symfony [info] {sfFrontWebController} Action "test_add/index" does not exist
+Nov 18 10:58:20 symfony [err] {sfError404Exception} Action "test_add/index" does not exist.
+Nov 18 10:58:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 10:58:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:58:20 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (5)
+Nov 18 10:58:20 symfony [info] {sfWebDebugLogger} Factories 19.68 ms (1)
+Nov 18 10:58:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/test_add with parameters array (  'module' => 'request',  'action' => 'test_add',)
+Nov 18 10:58:31 symfony [info] {sfFrontWebController} Action "request/test_add" does not exist
+Nov 18 10:58:31 symfony [err] {sfError404Exception} Action "request/test_add" does not exist.
+Nov 18 10:58:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 10:58:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:58:31 symfony [info] {sfWebDebugLogger} Configuration 2.99 ms (5)
+Nov 18 10:58:31 symfony [info] {sfWebDebugLogger} Factories 9.34 ms (1)
+Nov 18 10:58:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 10:58:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:58:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:58:35 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 10:58:35 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 10:58:35 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 10:58:35 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 10:58:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 10:58:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:58:35 symfony [info] {sfWebDebugLogger} Configuration 18.65 ms (10)
+Nov 18 10:58:35 symfony [info] {sfWebDebugLogger} Factories 7.60 ms (1)
+Nov 18 10:58:35 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.27 ms (1)
+Nov 18 10:58:35 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 26.85 ms (1)
+Nov 18 10:58:35 symfony [info] {sfWebResponse} Send content (29656 o)
+Nov 18 10:58:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 10:58:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:58:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:58:39 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 10:58:39 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "status" on "users"
+Nov 18 10:58:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 10:58:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:58:39 symfony [info] {sfWebDebugLogger} Configuration 2.10 ms (8)
+Nov 18 10:58:39 symfony [info] {sfWebDebugLogger} Factories 9.20 ms (1)
+Nov 18 10:58:39 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 57.34 ms (1)
+Nov 18 10:59:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 10:59:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:59:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:59:15 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 10:59:15 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "status" on "users"
+Nov 18 10:59:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 10:59:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:59:15 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (8)
+Nov 18 10:59:15 symfony [info] {sfWebDebugLogger} Factories 8.78 ms (1)
+Nov 18 10:59:15 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 56.78 ms (1)
+Nov 18 10:59:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 10:59:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 10:59:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 10:59:28 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 10:59:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 10:59:28 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (avatar, created_at, updated_at) VALUES (?, ?, ?) - (/Users/mattiarosi/NetBeansProjects/h-emergenze/web/uploads/alef-50a8b18042b760.46496936.png, 2012-11-18 10:59:28, 2012-11-18 10:59:28)
+Nov 18 10:59:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 10:59:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 10:59:28 symfony [info] {sfWebDebugLogger} Configuration 1.88 ms (8)
+Nov 18 10:59:28 symfony [info] {sfWebDebugLogger} Factories 9.70 ms (1)
+Nov 18 10:59:28 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 268.17 ms (1)
+Nov 18 10:59:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 10:59:28 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.02 ms (1)
+Nov 18 10:59:28 symfony [info] {sfWebResponse} Send content (20429 o)
+Nov 18 11:00:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 11:00:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:00:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:00:16 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 11:00:16 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 11:00:16 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:00:16 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:00:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:00:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:00:16 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+Nov 18 11:00:16 symfony [info] {sfWebDebugLogger} Factories 8.47 ms (1)
+Nov 18 11:00:16 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.27 ms (1)
+Nov 18 11:00:16 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 5.61 ms (1)
+Nov 18 11:00:16 symfony [info] {sfWebResponse} Send content (29653 o)
+Nov 18 11:00:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:00:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:00:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:00:20 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:00:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:00:20 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (avatar, created_at, updated_at) VALUES (?, ?, ?) - (alef-50a8b1b473cb59.84402146.png, 2012-11-18 11:00:20, 2012-11-18 11:00:20)
+Nov 18 11:00:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:00:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:00:20 symfony [info] {sfWebDebugLogger} Configuration 1.90 ms (8)
+Nov 18 11:00:20 symfony [info] {sfWebDebugLogger} Factories 8.10 ms (1)
+Nov 18 11:00:20 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 11.60 ms (1)
+Nov 18 11:00:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:00:20 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.01 ms (1)
+Nov 18 11:00:20 symfony [info] {sfWebResponse} Send content (20315 o)
+Nov 18 11:00:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 11:00:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:00:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:00:37 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 11:00:37 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 11:00:37 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:00:37 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:00:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:00:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:00:37 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+Nov 18 11:00:37 symfony [info] {sfWebDebugLogger} Factories 12.91 ms (1)
+Nov 18 11:00:37 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.31 ms (1)
+Nov 18 11:00:37 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 7.16 ms (1)
+Nov 18 11:00:37 symfony [info] {sfWebResponse} Send content (29654 o)
+Nov 18 11:00:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:00:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:00:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:00:55 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:00:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:00:55 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (avatar, created_at, updated_at) VALUES (?, ?, ?) - (alef-50a8b1d7544394.96046437.png, 2012-11-18 11:00:55, 2012-11-18 11:00:55)
+Nov 18 11:00:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:00:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:00:55 symfony [info] {sfWebDebugLogger} Configuration 1.95 ms (8)
+Nov 18 11:00:55 symfony [info] {sfWebDebugLogger} Factories 9.63 ms (1)
+Nov 18 11:00:55 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 10.49 ms (1)
+Nov 18 11:00:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Nov 18 11:00:55 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.01 ms (1)
+Nov 18 11:00:55 symfony [info] {sfWebResponse} Send content (20316 o)
+Nov 18 11:02:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:02:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:02:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:02:46 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:02:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:02:46 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (avatar, created_at, updated_at) VALUES (?, ?, ?) - (alef-50a8b246d6cd15.72660196.png, 2012-11-18 11:02:46, 2012-11-18 11:02:46)
+Nov 18 11:02:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:02:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:02:46 symfony [info] {sfWebDebugLogger} Configuration 1.82 ms (8)
+Nov 18 11:02:46 symfony [info] {sfWebDebugLogger} Factories 12.62 ms (1)
+Nov 18 11:02:46 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 14.32 ms (1)
+Nov 18 11:02:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:02:46 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.02 ms (1)
+Nov 18 11:02:46 symfony [info] {sfWebResponse} Send content (20349 o)
+Nov 18 11:02:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:02:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:02:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:02:54 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:02:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:02:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - ()
+Nov 18 11:02:54 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1. Failing Query: "SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?)"
+Nov 18 11:02:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 11:02:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:02:54 symfony [info] {sfWebDebugLogger} Configuration 1.96 ms (8)
+Nov 18 11:02:54 symfony [info] {sfWebDebugLogger} Factories 10.82 ms (1)
+Nov 18 11:02:54 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 145.22 ms (1)
+Nov 18 11:02:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Nov 18 11:03:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:03:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:03:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:03:13 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:03:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:03:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:04:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:04:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:04:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:04:04 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:04:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:04:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:04:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:04:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:04:04 symfony [info] {sfWebDebugLogger} Configuration 1.85 ms (8)
+Nov 18 11:04:04 symfony [info] {sfWebDebugLogger} Factories 8.72 ms (1)
+Nov 18 11:04:04 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 17.52 ms (1)
+Nov 18 11:04:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:04:04 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.01 ms (1)
+Nov 18 11:04:04 symfony [info] {sfWebResponse} Send content (21062 o)
+Nov 18 11:04:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:04:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:04:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:04:38 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:04:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:04:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:04:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:04:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:04:38 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (8)
+Nov 18 11:04:38 symfony [info] {sfWebDebugLogger} Factories 12.26 ms (1)
+Nov 18 11:04:38 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 29.40 ms (1)
+Nov 18 11:04:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:04:38 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.02 ms (1)
+Nov 18 11:04:38 symfony [info] {sfWebResponse} Send content (21063 o)
+Nov 18 11:04:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:04:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:04:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:04:40 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:04:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:04:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:04:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:04:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:04:40 symfony [info] {sfWebDebugLogger} Configuration 1.82 ms (8)
+Nov 18 11:04:40 symfony [info] {sfWebDebugLogger} Factories 17.02 ms (1)
+Nov 18 11:04:40 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 16.58 ms (1)
+Nov 18 11:04:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:04:40 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.02 ms (1)
+Nov 18 11:04:40 symfony [info] {sfWebResponse} Send content (21063 o)
+Nov 18 11:05:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:05:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:05:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:05:45 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:05:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:05:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:05:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:05:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:05:45 symfony [info] {sfWebDebugLogger} Configuration 2.05 ms (8)
+Nov 18 11:05:45 symfony [info] {sfWebDebugLogger} Factories 8.39 ms (1)
+Nov 18 11:05:45 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 18.89 ms (1)
+Nov 18 11:05:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:05:45 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.01 ms (1)
+Nov 18 11:05:45 symfony [info] {sfWebResponse} Send content (20984 o)
+Nov 18 11:06:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:06:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:06:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:06:16 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:06:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:06:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:06:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:06:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:06:16 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (8)
+Nov 18 11:06:16 symfony [info] {sfWebDebugLogger} Factories 7.54 ms (1)
+Nov 18 11:06:16 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 18.42 ms (1)
+Nov 18 11:06:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:06:16 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.01 ms (1)
+Nov 18 11:06:16 symfony [info] {sfWebResponse} Send content (21181 o)
+Nov 18 11:08:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:08:36 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:09:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:09:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:09:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:09:39 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:09:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:09:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:09:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:09:56 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:09:56 symfony [notice] {sfWebDebugLogger}  Notice at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php on line 242 (Undefined variable: tmpFile)
+Nov 18 11:09:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:09:56 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (created_at, updated_at) VALUES (?, ?) - (2012-11-18 11:09:56, 2012-11-18 11:09:56)
+Nov 18 11:09:56 symfony [warning] {sfWebDebugLogger}  Warning at /Users/mattiarosi/NetBeansProjects/h-emergenze/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php:242))
+Nov 18 11:09:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:09:56 symfony [warning] {sfWebDebugLogger}  Warning at /Users/mattiarosi/NetBeansProjects/h-emergenze/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php:242))
+Nov 18 11:09:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:09:56 symfony [info] {sfWebDebugLogger} Configuration 1.84 ms (8)
+Nov 18 11:09:56 symfony [info] {sfWebDebugLogger} Factories 13.29 ms (1)
+Nov 18 11:09:56 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 68.01 ms (1)
+Nov 18 11:09:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:09:56 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.02 ms (1)
+Nov 18 11:09:56 symfony [info] {sfWebResponse} Send content (19907 o)
+Nov 18 11:10:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:10:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:10:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:10:19 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:10:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:10:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:10:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:10:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:10:19 symfony [info] {sfWebDebugLogger} Configuration 1.84 ms (8)
+Nov 18 11:10:19 symfony [info] {sfWebDebugLogger} Factories 9.15 ms (1)
+Nov 18 11:10:19 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 18.60 ms (1)
+Nov 18 11:10:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:10:19 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.01 ms (1)
+Nov 18 11:10:19 symfony [info] {sfWebResponse} Send content (21149 o)
+Nov 18 11:10:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:10:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:10:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:10:21 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:10:21 symfony [notice] {sfWebDebugLogger}  Notice at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php on line 242 (Undefined variable: tmpFile)
+Nov 18 11:10:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:10:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (created_at, updated_at) VALUES (?, ?) - (2012-11-18 11:10:21, 2012-11-18 11:10:21)
+Nov 18 11:10:21 symfony [warning] {sfWebDebugLogger}  Warning at /Users/mattiarosi/NetBeansProjects/h-emergenze/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php:242))
+Nov 18 11:10:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:10:21 symfony [warning] {sfWebDebugLogger}  Warning at /Users/mattiarosi/NetBeansProjects/h-emergenze/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php:242))
+Nov 18 11:10:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:10:21 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (8)
+Nov 18 11:10:21 symfony [info] {sfWebDebugLogger} Factories 8.14 ms (1)
+Nov 18 11:10:21 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 18.09 ms (1)
+Nov 18 11:10:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:10:21 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.01 ms (1)
+Nov 18 11:10:21 symfony [info] {sfWebResponse} Send content (19874 o)
+Nov 18 11:10:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:10:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:10:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:10:23 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:10:23 symfony [notice] {sfWebDebugLogger}  Notice at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php on line 242 (Undefined variable: tmpFile)
+Nov 18 11:10:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:10:23 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (created_at, updated_at) VALUES (?, ?) - (2012-11-18 11:10:23, 2012-11-18 11:10:23)
+Nov 18 11:10:23 symfony [warning] {sfWebDebugLogger}  Warning at /Users/mattiarosi/NetBeansProjects/h-emergenze/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php:242))
+Nov 18 11:10:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:10:23 symfony [warning] {sfWebDebugLogger}  Warning at /Users/mattiarosi/NetBeansProjects/h-emergenze/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/actions/actions.class.php:242))
+Nov 18 11:10:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:10:23 symfony [info] {sfWebDebugLogger} Configuration 1.66 ms (8)
+Nov 18 11:10:23 symfony [info] {sfWebDebugLogger} Factories 8.76 ms (1)
+Nov 18 11:10:23 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 25.99 ms (1)
+Nov 18 11:10:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:10:23 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.02 ms (1)
+Nov 18 11:10:23 symfony [info] {sfWebResponse} Send content (19874 o)
+Nov 18 11:10:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 11:10:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:10:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:10:36 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 11:10:36 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 11:10:36 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:10:36 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:10:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:10:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:10:36 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+Nov 18 11:10:36 symfony [info] {sfWebDebugLogger} Factories 7.98 ms (1)
+Nov 18 11:10:36 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.26 ms (1)
+Nov 18 11:10:36 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 7.74 ms (1)
+Nov 18 11:10:36 symfony [info] {sfWebResponse} Send content (29653 o)
+Nov 18 11:10:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:10:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:10:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:10:40 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:10:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:10:40 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (created_at, updated_at) VALUES (?, ?) - (2012-11-18 11:10:40, 2012-11-18 11:10:40)
+Nov 18 11:10:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:10:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:10:40 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (8)
+Nov 18 11:10:40 symfony [info] {sfWebDebugLogger} Factories 8.67 ms (1)
+Nov 18 11:10:40 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 22.79 ms (1)
+Nov 18 11:10:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:10:40 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.01 ms (1)
+Nov 18 11:10:40 symfony [info] {sfWebResponse} Send content (20227 o)
+Nov 18 11:10:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:10:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:10:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:10:55 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:10:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:10:55 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (created_at, updated_at) VALUES (?, ?) - (2012-11-18 11:10:55, 2012-11-18 11:10:55)
+Nov 18 11:10:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:10:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:10:55 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (8)
+Nov 18 11:10:55 symfony [info] {sfWebDebugLogger} Factories 11.58 ms (1)
+Nov 18 11:10:55 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 12.00 ms (1)
+Nov 18 11:10:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:10:55 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.01 ms (1)
+Nov 18 11:10:55 symfony [info] {sfWebResponse} Send content (20260 o)
+Nov 18 11:11:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 11:11:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:11:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:11:17 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 11:11:17 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 11:11:17 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:11:17 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:11:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:11:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:11:17 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+Nov 18 11:11:17 symfony [info] {sfWebDebugLogger} Factories 13.20 ms (1)
+Nov 18 11:11:17 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.30 ms (1)
+Nov 18 11:11:17 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 7.28 ms (1)
+Nov 18 11:11:17 symfony [info] {sfWebResponse} Send content (29654 o)
+Nov 18 11:11:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 11:11:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:11:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:11:18 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 11:11:18 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 11:11:18 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:11:18 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:11:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:11:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:11:18 symfony [info] {sfWebDebugLogger} Configuration 1.98 ms (9)
+Nov 18 11:11:18 symfony [info] {sfWebDebugLogger} Factories 10.25 ms (1)
+Nov 18 11:11:18 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.26 ms (1)
+Nov 18 11:11:18 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 7.21 ms (1)
+Nov 18 11:11:18 symfony [info] {sfWebResponse} Send content (29686 o)
+Nov 18 11:11:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:11:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:11:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:11:29 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:11:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:11:29 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (created_at, updated_at) VALUES (?, ?) - (2012-11-18 11:11:29, 2012-11-18 11:11:29)
+Nov 18 11:11:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:11:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:11:29 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (8)
+Nov 18 11:11:29 symfony [info] {sfWebDebugLogger} Factories 13.99 ms (1)
+Nov 18 11:11:29 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 26.57 ms (1)
+Nov 18 11:11:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:11:29 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.02 ms (1)
+Nov 18 11:11:29 symfony [info] {sfWebResponse} Send content (20228 o)
+Nov 18 11:11:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/testAdd with parameters array (  'module' => 'request',  'action' => 'testAdd',)
+Nov 18 11:11:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:11:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:11:58 symfony [info] {requestActions} Call "requestActions->executeTestAdd()"
+Nov 18 11:11:58 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/testAddSuccess.php"
+Nov 18 11:11:58 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:11:58 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:11:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:11:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:11:58 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+Nov 18 11:11:58 symfony [info] {sfWebDebugLogger} Factories 8.39 ms (1)
+Nov 18 11:11:58 symfony [info] {sfWebDebugLogger} Action "request/testAdd" 0.27 ms (1)
+Nov 18 11:11:58 symfony [info] {sfWebDebugLogger} View "Success" for "request/testAdd" 6.61 ms (1)
+Nov 18 11:11:58 symfony [info] {sfWebResponse} Send content (29653 o)
+Nov 18 11:12:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/add_person_to_place with parameters array (  'module' => 'request',  'action' => 'add_person_to_place',)
+Nov 18 11:12:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:12:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:12:01 symfony [info] {requestActions} Call "requestActions->executeAdd_person_to_place()"
+Nov 18 11:12:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:12:01 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO users (avatar, created_at, updated_at) VALUES (?, ?, ?) - (alef-50a8b471d48f40.23660788.png, 2012-11-18 11:12:01, 2012-11-18 11:12:01)
+Nov 18 11:12:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:12:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:12:01 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (8)
+Nov 18 11:12:01 symfony [info] {sfWebDebugLogger} Factories 8.87 ms (1)
+Nov 18 11:12:01 symfony [info] {sfWebDebugLogger} Action "request/add_person_to_place" 10.88 ms (1)
+Nov 18 11:12:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:12:01 symfony [info] {sfWebDebugLogger} View "None" for "request/add_person_to_place" 0.01 ms (1)
+Nov 18 11:12:01 symfony [info] {sfWebResponse} Send content (20315 o)
+Nov 18 11:13:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:13:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:13:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:13:28 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:13:28 symfony [err] {InvalidArgumentException} Unable to load "ImageHelper.php" helper in: SF_ROOT_DIR/apps/frontend/lib/helper, SF_ROOT_DIR/lib/helper, SF_ROOT_DIR/lib/vendor/symfony/lib/helper.
+Nov 18 11:13:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 11:13:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:13:28 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (8)
+Nov 18 11:13:28 symfony [info] {sfWebDebugLogger} Factories 18.97 ms (1)
+Nov 18 11:13:28 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 50.32 ms (1)
+Nov 18 11:13:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:13:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:13:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:13:43 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:13:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:13:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:13:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:13:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:13:43 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (8)
+Nov 18 11:13:43 symfony [info] {sfWebDebugLogger} Factories 8.52 ms (1)
+Nov 18 11:13:43 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 16.53 ms (1)
+Nov 18 11:13:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Nov 18 11:13:43 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.01 ms (1)
+Nov 18 11:13:43 symfony [info] {sfWebResponse} Send content (20984 o)
+Nov 18 11:13:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:13:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:13:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:13:52 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:13:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:13:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:14:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/get_people_in_safe_place with parameters array (  'module' => 'request',  'action' => 'get_people_in_safe_place',)
+Nov 18 11:14:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:14:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:14:42 symfony [info] {requestActions} Call "requestActions->executeGet_people_in_safe_place()"
+Nov 18 11:14:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:14:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.name AS u__name, u.surname AS u__surname, u.state AS u__state, u.avatar AS u__avatar, u.place_id AS u__place_id, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM users u WHERE (u.place_id = ?) - (1)
+Nov 18 11:14:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:14:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:14:42 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (8)
+Nov 18 11:14:42 symfony [info] {sfWebDebugLogger} Factories 8.46 ms (1)
+Nov 18 11:14:42 symfony [info] {sfWebDebugLogger} Action "request/get_people_in_safe_place" 30.89 ms (1)
+Nov 18 11:14:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:14:42 symfony [info] {sfWebDebugLogger} View "None" for "request/get_people_in_safe_place" 0.01 ms (1)
+Nov 18 11:14:42 symfony [info] {sfWebResponse} Send content (21165 o)
+Nov 18 11:19:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 11:19:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:19:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:19:08 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 11:19:08 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 11:19:08 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:19:08 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Factories 8.04 ms (1)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Action "home/index" 0.28 ms (1)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 7.68 ms (1)
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send content (30984 o)
+Nov 18 11:19:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/chekState with parameters array (  'module' => 'home',  'action' => 'chekState',)
+Nov 18 11:19:08 symfony [info] {sfFrontWebController} Action "home/chekState" does not exist
+Nov 18 11:19:08 symfony [err] {sfError404Exception} Action "home/chekState" does not exist.
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Configuration 1.15 ms (5)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Factories 7.94 ms (1)
+Nov 18 11:19:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 11:19:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:19:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:19:08 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 11:19:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:19:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 11:19:08 symfony [info] {homeActions} Change layout to ""
+Nov 18 11:19:08 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Configuration 1.98 ms (9)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Factories 14.74 ms (1)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Action "home/markers" 26.52 ms (1)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:19:08 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 7.46 ms (1)
+Nov 18 11:19:08 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 11:19:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 11:19:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:19:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:19:12 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 11:19:12 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 11:19:12 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:19:12 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:19:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:19:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:19:12 symfony [info] {sfWebDebugLogger} Configuration 1.98 ms (9)
+Nov 18 11:19:12 symfony [info] {sfWebDebugLogger} Factories 8.05 ms (1)
+Nov 18 11:19:12 symfony [info] {sfWebDebugLogger} Action "home/index" 0.30 ms (1)
+Nov 18 11:19:12 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 5.61 ms (1)
+Nov 18 11:19:12 symfony [info] {sfWebResponse} Send content (31016 o)
+Nov 18 11:19:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/chekState with parameters array (  'module' => 'home',  'action' => 'chekState',)
+Nov 18 11:19:12 symfony [info] {sfFrontWebController} Action "home/chekState" does not exist
+Nov 18 11:19:12 symfony [err] {sfError404Exception} Action "home/chekState" does not exist.
+Nov 18 11:19:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 11:19:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 11:19:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} Configuration 1.13 ms (5)
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} Factories 22.55 ms (1)
+Nov 18 11:19:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:19:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:19:13 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 11:19:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:19:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 11:19:13 symfony [info] {homeActions} Change layout to ""
+Nov 18 11:19:13 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 11:19:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:19:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} Configuration 1.94 ms (9)
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} Factories 105.58 ms (1)
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} Action "home/markers" 17.55 ms (1)
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:19:13 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 6.48 ms (1)
+Nov 18 11:19:13 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 11:20:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 11:20:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:20:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:20:39 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 11:20:39 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 11:20:39 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:20:39 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:20:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:20:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} Configuration 1.94 ms (9)
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} Factories 8.24 ms (1)
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} Action "home/index" 0.28 ms (1)
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 6.10 ms (1)
+Nov 18 11:20:39 symfony [info] {sfWebResponse} Send content (31017 o)
+Nov 18 11:20:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:20:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 11:20:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:20:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:20:39 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:20:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:20:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (8)
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} Factories 132.81 ms (1)
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:20:39 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:20:39 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:20:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:20:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:20:39 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 11:20:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:20:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 11:20:40 symfony [info] {homeActions} Change layout to ""
+Nov 18 11:20:40 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 11:20:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:20:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 11:20:40 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (9)
+Nov 18 11:20:40 symfony [info] {sfWebDebugLogger} Factories 128.93 ms (1)
+Nov 18 11:20:40 symfony [info] {sfWebDebugLogger} Action "home/markers" 43.32 ms (1)
+Nov 18 11:20:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:20:40 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 8.32 ms (1)
+Nov 18 11:20:40 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 11:20:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:20:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:20:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:20:46 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:20:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:20:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:20:46 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (8)
+Nov 18 11:20:46 symfony [info] {sfWebDebugLogger} Factories 7.66 ms (1)
+Nov 18 11:20:46 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.32 ms (1)
+Nov 18 11:20:46 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:20:46 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:20:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:20:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:20:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:20:53 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:20:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:20:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:20:53 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (8)
+Nov 18 11:20:53 symfony [info] {sfWebDebugLogger} Factories 12.71 ms (1)
+Nov 18 11:20:53 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.38 ms (1)
+Nov 18 11:20:53 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:20:53 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:20:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:20:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:20:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:20:59 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:20:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:20:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:20:59 symfony [info] {sfWebDebugLogger} Configuration 2.35 ms (8)
+Nov 18 11:20:59 symfony [info] {sfWebDebugLogger} Factories 7.76 ms (1)
+Nov 18 11:20:59 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.31 ms (1)
+Nov 18 11:20:59 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:20:59 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 11:21:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:08 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 11:21:08 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 11:21:08 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:21:08 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:21:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:08 symfony [info] {sfWebDebugLogger} Configuration 3.62 ms (9)
+Nov 18 11:21:08 symfony [info] {sfWebDebugLogger} Factories 9.70 ms (1)
+Nov 18 11:21:08 symfony [info] {sfWebDebugLogger} Action "home/index" 0.28 ms (1)
+Nov 18 11:21:08 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 6.16 ms (1)
+Nov 18 11:21:08 symfony [info] {sfWebResponse} Send content (30962 o)
+Nov 18 11:21:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:09 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Configuration 2.46 ms (8)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Factories 26.11 ms (1)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.32 ms (1)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:09 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 11:21:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:09 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 11:21:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:21:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 11:21:09 symfony [info] {homeActions} Change layout to ""
+Nov 18 11:21:09 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 11:21:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Configuration 33.87 ms (9)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Factories 8.69 ms (1)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Action "home/markers" 12.33 ms (1)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:21:09 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 6.99 ms (1)
+Nov 18 11:21:09 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 11:21:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:14 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:14 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (8)
+Nov 18 11:21:14 symfony [info] {sfWebDebugLogger} Factories 7.52 ms (1)
+Nov 18 11:21:14 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:21:14 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:14 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:19 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:19 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (8)
+Nov 18 11:21:19 symfony [info] {sfWebDebugLogger} Factories 7.65 ms (1)
+Nov 18 11:21:19 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.38 ms (1)
+Nov 18 11:21:19 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:19 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:24 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:24 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (8)
+Nov 18 11:21:24 symfony [info] {sfWebDebugLogger} Factories 8.14 ms (1)
+Nov 18 11:21:24 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.36 ms (1)
+Nov 18 11:21:24 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:24 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:29 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:29 symfony [info] {sfWebDebugLogger} Configuration 2.22 ms (8)
+Nov 18 11:21:29 symfony [info] {sfWebDebugLogger} Factories 7.98 ms (1)
+Nov 18 11:21:29 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:21:29 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:29 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:35 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:35 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (8)
+Nov 18 11:21:35 symfony [info] {sfWebDebugLogger} Factories 16.61 ms (1)
+Nov 18 11:21:35 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.39 ms (1)
+Nov 18 11:21:35 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:21:35 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:40 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:40 symfony [info] {sfWebDebugLogger} Configuration 1.86 ms (8)
+Nov 18 11:21:40 symfony [info] {sfWebDebugLogger} Factories 7.56 ms (1)
+Nov 18 11:21:40 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:21:40 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:40 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:45 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:45 symfony [info] {sfWebDebugLogger} Configuration 1.78 ms (8)
+Nov 18 11:21:45 symfony [info] {sfWebDebugLogger} Factories 7.49 ms (1)
+Nov 18 11:21:45 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:21:45 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:45 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:50 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:50 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (8)
+Nov 18 11:21:50 symfony [info] {sfWebDebugLogger} Factories 7.60 ms (1)
+Nov 18 11:21:50 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:21:50 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:21:50 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:21:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:21:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:21:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:21:55 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:21:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:21:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:21:55 symfony [info] {sfWebDebugLogger} Configuration 1.91 ms (8)
+Nov 18 11:21:55 symfony [info] {sfWebDebugLogger} Factories 7.91 ms (1)
+Nov 18 11:21:55 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.31 ms (1)
+Nov 18 11:21:55 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:21:55 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:00 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:00 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (8)
+Nov 18 11:22:00 symfony [info] {sfWebDebugLogger} Factories 7.64 ms (1)
+Nov 18 11:22:00 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:00 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:00 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:05 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:05 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (8)
+Nov 18 11:22:05 symfony [info] {sfWebDebugLogger} Factories 12.74 ms (1)
+Nov 18 11:22:05 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.36 ms (1)
+Nov 18 11:22:05 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:22:05 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:10 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:10 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (8)
+Nov 18 11:22:10 symfony [info] {sfWebDebugLogger} Factories 9.05 ms (1)
+Nov 18 11:22:10 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.33 ms (1)
+Nov 18 11:22:10 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:10 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:15 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:15 symfony [info] {sfWebDebugLogger} Configuration 1.86 ms (8)
+Nov 18 11:22:15 symfony [info] {sfWebDebugLogger} Factories 7.59 ms (1)
+Nov 18 11:22:15 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:15 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:15 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:20 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:20 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (8)
+Nov 18 11:22:20 symfony [info] {sfWebDebugLogger} Factories 13.08 ms (1)
+Nov 18 11:22:20 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.34 ms (1)
+Nov 18 11:22:20 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:22:20 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:25 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:25 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (8)
+Nov 18 11:22:25 symfony [info] {sfWebDebugLogger} Factories 12.88 ms (1)
+Nov 18 11:22:25 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.34 ms (1)
+Nov 18 11:22:25 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:22:25 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:30 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:30 symfony [info] {sfWebDebugLogger} Configuration 2.03 ms (8)
+Nov 18 11:22:30 symfony [info] {sfWebDebugLogger} Factories 7.83 ms (1)
+Nov 18 11:22:30 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:30 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:30 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:35 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:35 symfony [info] {sfWebDebugLogger} Configuration 1.85 ms (8)
+Nov 18 11:22:35 symfony [info] {sfWebDebugLogger} Factories 7.90 ms (1)
+Nov 18 11:22:35 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:35 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:35 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:40 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:40 symfony [info] {sfWebDebugLogger} Configuration 1.87 ms (8)
+Nov 18 11:22:40 symfony [info] {sfWebDebugLogger} Factories 7.50 ms (1)
+Nov 18 11:22:40 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:40 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:40 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:45 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:45 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (8)
+Nov 18 11:22:45 symfony [info] {sfWebDebugLogger} Factories 8.82 ms (1)
+Nov 18 11:22:45 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.31 ms (1)
+Nov 18 11:22:45 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:45 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:50 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:50 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (8)
+Nov 18 11:22:50 symfony [info] {sfWebDebugLogger} Factories 7.41 ms (1)
+Nov 18 11:22:50 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:50 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:50 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:22:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:22:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:22:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:22:55 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:22:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:22:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:22:55 symfony [info] {sfWebDebugLogger} Configuration 1.94 ms (8)
+Nov 18 11:22:55 symfony [info] {sfWebDebugLogger} Factories 7.83 ms (1)
+Nov 18 11:22:55 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:22:55 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:22:55 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:00 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:00 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (8)
+Nov 18 11:23:00 symfony [info] {sfWebDebugLogger} Factories 7.50 ms (1)
+Nov 18 11:23:00 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:23:00 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:00 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:05 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:05 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (8)
+Nov 18 11:23:05 symfony [info] {sfWebDebugLogger} Factories 7.51 ms (1)
+Nov 18 11:23:05 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:23:05 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:05 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:10 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:10 symfony [info] {sfWebDebugLogger} Configuration 3.23 ms (8)
+Nov 18 11:23:10 symfony [info] {sfWebDebugLogger} Factories 7.87 ms (1)
+Nov 18 11:23:10 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:23:10 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:10 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:15 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:15 symfony [info] {sfWebDebugLogger} Configuration 1.82 ms (8)
+Nov 18 11:23:15 symfony [info] {sfWebDebugLogger} Factories 23.50 ms (1)
+Nov 18 11:23:15 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.32 ms (1)
+Nov 18 11:23:15 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:15 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:20 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:20 symfony [info] {sfWebDebugLogger} Configuration 1.85 ms (8)
+Nov 18 11:23:20 symfony [info] {sfWebDebugLogger} Factories 7.99 ms (1)
+Nov 18 11:23:20 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:23:20 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:20 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:25 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:25 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (8)
+Nov 18 11:23:25 symfony [info] {sfWebDebugLogger} Factories 7.60 ms (1)
+Nov 18 11:23:25 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.30 ms (1)
+Nov 18 11:23:25 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:23:25 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:30 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:30 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (8)
+Nov 18 11:23:30 symfony [info] {sfWebDebugLogger} Factories 8.75 ms (1)
+Nov 18 11:23:30 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.31 ms (1)
+Nov 18 11:23:30 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:30 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:35 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:35 symfony [info] {sfWebDebugLogger} Configuration 1.66 ms (8)
+Nov 18 11:23:35 symfony [info] {sfWebDebugLogger} Factories 7.53 ms (1)
+Nov 18 11:23:35 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:23:35 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:35 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:40 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:40 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (8)
+Nov 18 11:23:40 symfony [info] {sfWebDebugLogger} Factories 7.66 ms (1)
+Nov 18 11:23:40 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.32 ms (1)
+Nov 18 11:23:40 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:23:40 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:45 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:45 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (8)
+Nov 18 11:23:46 symfony [info] {sfWebDebugLogger} Factories 7.40 ms (1)
+Nov 18 11:23:46 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:23:46 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:46 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:51 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:51 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (8)
+Nov 18 11:23:51 symfony [info] {sfWebDebugLogger} Factories 8.39 ms (1)
+Nov 18 11:23:51 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.30 ms (1)
+Nov 18 11:23:51 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:23:51 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:23:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:23:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:23:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:23:56 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:23:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:23:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:23:56 symfony [info] {sfWebDebugLogger} Configuration 1.63 ms (8)
+Nov 18 11:23:56 symfony [info] {sfWebDebugLogger} Factories 7.49 ms (1)
+Nov 18 11:23:56 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:23:56 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:23:56 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:01 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:01 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (8)
+Nov 18 11:24:01 symfony [info] {sfWebDebugLogger} Factories 7.45 ms (1)
+Nov 18 11:24:01 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:24:01 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:01 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:06 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:06 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (8)
+Nov 18 11:24:06 symfony [info] {sfWebDebugLogger} Factories 7.44 ms (1)
+Nov 18 11:24:06 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:24:06 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:06 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:11 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:11 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (8)
+Nov 18 11:24:11 symfony [info] {sfWebDebugLogger} Factories 7.76 ms (1)
+Nov 18 11:24:11 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:24:11 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:11 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:16 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:16 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (8)
+Nov 18 11:24:16 symfony [info] {sfWebDebugLogger} Factories 9.85 ms (1)
+Nov 18 11:24:16 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.31 ms (1)
+Nov 18 11:24:16 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:24:16 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:21 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:21 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (8)
+Nov 18 11:24:21 symfony [info] {sfWebDebugLogger} Factories 8.76 ms (1)
+Nov 18 11:24:21 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.31 ms (1)
+Nov 18 11:24:21 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:21 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:26 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:26 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (8)
+Nov 18 11:24:26 symfony [info] {sfWebDebugLogger} Factories 9.04 ms (1)
+Nov 18 11:24:26 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.38 ms (1)
+Nov 18 11:24:26 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:26 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:31 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:31 symfony [info] {sfWebDebugLogger} Configuration 1.86 ms (8)
+Nov 18 11:24:31 symfony [info] {sfWebDebugLogger} Factories 7.34 ms (1)
+Nov 18 11:24:31 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:24:31 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:31 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:36 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:36 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (8)
+Nov 18 11:24:36 symfony [info] {sfWebDebugLogger} Factories 8.58 ms (1)
+Nov 18 11:24:36 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:24:36 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:36 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:41 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:41 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (8)
+Nov 18 11:24:41 symfony [info] {sfWebDebugLogger} Factories 7.57 ms (1)
+Nov 18 11:24:41 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.30 ms (1)
+Nov 18 11:24:41 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.04 ms (1)
+Nov 18 11:24:41 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:46 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:46 symfony [info] {sfWebDebugLogger} Configuration 1.87 ms (8)
+Nov 18 11:24:46 symfony [info] {sfWebDebugLogger} Factories 7.85 ms (1)
+Nov 18 11:24:46 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.28 ms (1)
+Nov 18 11:24:46 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:24:46 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 11:24:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:50 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 11:24:50 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 11:24:50 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:24:50 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Configuration 2.03 ms (9)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Factories 8.14 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Action "home/index" 0.28 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 7.95 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send content (30963 o)
+Nov 18 11:24:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:50 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Configuration 2.29 ms (8)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Factories 8.88 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.35 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:24:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 11:24:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:50 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 11:24:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:24:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 11:24:50 symfony [info] {homeActions} Change layout to ""
+Nov 18 11:24:50 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Configuration 59.27 ms (9)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Factories 65.37 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Action "home/markers" 80.37 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:24:50 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 13.32 ms (1)
+Nov 18 11:24:50 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 11:24:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:24:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:24:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:24:55 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:24:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:24:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:24:55 symfony [info] {sfWebDebugLogger} Configuration 1.93 ms (8)
+Nov 18 11:24:55 symfony [info] {sfWebDebugLogger} Factories 8.14 ms (1)
+Nov 18 11:24:55 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.32 ms (1)
+Nov 18 11:24:55 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:24:55 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:00 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:00 symfony [info] {sfWebDebugLogger} Configuration 1.82 ms (8)
+Nov 18 11:25:00 symfony [info] {sfWebDebugLogger} Factories 7.61 ms (1)
+Nov 18 11:25:00 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.35 ms (1)
+Nov 18 11:25:00 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:00 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:05 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:05 symfony [info] {sfWebDebugLogger} Configuration 3.22 ms (8)
+Nov 18 11:25:05 symfony [info] {sfWebDebugLogger} Factories 15.12 ms (1)
+Nov 18 11:25:05 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.29 ms (1)
+Nov 18 11:25:05 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:05 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:10 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:10 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (8)
+Nov 18 11:25:10 symfony [info] {sfWebDebugLogger} Factories 11.24 ms (1)
+Nov 18 11:25:10 symfony [info] {sfWebDebugLogger} Action "home/checkState" 0.50 ms (1)
+Nov 18 11:25:10 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:10 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:16 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Configuration 1.78 ms (8)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Factories 8.91 ms (1)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Action "home/checkState" 80.11 ms (1)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (5)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:16 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 11:25:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:16 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 11:25:16 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 11:25:16 symfony [info] {sfPHPView} Decorate content with "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:25:16 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 11:25:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Configuration 1.92 ms (9)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Factories 7.99 ms (1)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} Action "home/index" 0.26 ms (1)
+Nov 18 11:25:16 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 6.10 ms (1)
+Nov 18 11:25:16 symfony [info] {sfWebResponse} Send content (30963 o)
+Nov 18 11:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:17 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (8)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Factories 7.76 ms (1)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Action "home/checkState" 47.70 ms (1)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (5)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:25:17 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 11:25:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:17 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 11:25:17 symfony [info] {homeActions} Change layout to ""
+Nov 18 11:25:17 symfony [info] {sfPHPView} Render "/Users/mattiarosi/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/markersSuccess.php"
+Nov 18 11:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/xml; charset=utf-8"
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (9)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Factories 9.82 ms (1)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Action "home/markers" 93.17 ms (1)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:25:17 symfony [info] {sfWebDebugLogger} View "Success" for "home/markers" 7.13 ms (1)
+Nov 18 11:25:17 symfony [info] {sfWebResponse} Send content (828 o)
+Nov 18 11:25:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:22 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:22 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (8)
+Nov 18 11:25:22 symfony [info] {sfWebDebugLogger} Factories 8.29 ms (1)
+Nov 18 11:25:22 symfony [info] {sfWebDebugLogger} Action "home/checkState" 32.87 ms (1)
+Nov 18 11:25:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (5)
+Nov 18 11:25:22 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.02 ms (1)
+Nov 18 11:25:22 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:27 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:27 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (8)
+Nov 18 11:25:27 symfony [info] {sfWebDebugLogger} Factories 7.87 ms (1)
+Nov 18 11:25:27 symfony [info] {sfWebDebugLogger} Action "home/checkState" 45.62 ms (1)
+Nov 18 11:25:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (5)
+Nov 18 11:25:27 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:27 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:32 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:32 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (8)
+Nov 18 11:25:32 symfony [info] {sfWebDebugLogger} Factories 7.70 ms (1)
+Nov 18 11:25:32 symfony [info] {sfWebDebugLogger} Action "home/checkState" 30.59 ms (1)
+Nov 18 11:25:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (5)
+Nov 18 11:25:32 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:32 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:37 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 11:25:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:25:37 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (8)
+Nov 18 11:25:37 symfony [info] {sfWebDebugLogger} Factories 7.55 ms (1)
+Nov 18 11:25:37 symfony [info] {sfWebDebugLogger} Action "home/checkState" 46.44 ms (1)
+Nov 18 11:25:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (5)
+Nov 18 11:25:37 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
+Nov 18 11:25:37 symfony [info] {sfWebResponse} Send content (13 o)
+Nov 18 11:25:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 11:25:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:42 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:25:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:44 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:25:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:25:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:25:59 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:25:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:25:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:25:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:26:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:26:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:26:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:26:11 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:26:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:26:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:26:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:26:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:26:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:27:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:27:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:27:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:27:01 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:27:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:27:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:27:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:27:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:27:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:27:14 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:27:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:27:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:27:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:27:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:27:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:27:21 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:27:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:27:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:27:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:27:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:27:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:27:35 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:27:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:27:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:27:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:27:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:27:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:27:47 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:27:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:27:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:27:47 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "sensor_event" on "sensor_event"
+Nov 18 11:27:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 11:27:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 11:27:47 symfony [info] {sfWebDebugLogger} Configuration 3.05 ms (8)
+Nov 18 11:27:47 symfony [info] {sfWebDebugLogger} Factories 9.43 ms (1)
+Nov 18 11:27:47 symfony [info] {sfWebDebugLogger} Action "home/CheckState" 133.76 ms (1)
+Nov 18 11:27:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Nov 18 11:27:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:27:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:27:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:27:56 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:27:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:27:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:28:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:28:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:28:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:28:21 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:28:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:28:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:32:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:32:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:32:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:32:45 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:32:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:32:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:32:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:32:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:32:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:33:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:33:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:33:49 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:33:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:33:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:33:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:33:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:33:50 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:33:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:33:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:33:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:34:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:34:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:34:17 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:34:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:34:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:34:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:34:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:34:23 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:34:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:34:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:34:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:34:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:34:35 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:34:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:34:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:34:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:34:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:34:40 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:34:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:34:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:34:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:34:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:34:46 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:34:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:34:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:34:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:35:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:35:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:35:04 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:35:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:35:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/CheckState with parameters array (  'module' => 'home',  'action' => 'CheckState',)
+Nov 18 11:35:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 11:35:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 11:35:39 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 11:35:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 11:35:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 3) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 4) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 11:35:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 5) ORDER BY s.created_at desc LIMIT 1 - ()

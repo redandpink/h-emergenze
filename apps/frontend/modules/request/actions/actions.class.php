@@ -82,6 +82,7 @@ class requestActions extends sfActions
   //cerco utenti nei safe places
   public function executeSearch_people_in_safe_place(sfWebRequest $request)
   {
+      $this->getContext()->getConfiguration()->loadHelpers('Asset');
       $search_string = $request->getParameter('search_string');
       $search_string = str_replace('_', ' ', $search_string);
       $conditions = "(concat(u.name, ' ', u.surname) LIKE '%" . $search_string . "%' or   concat(u.surname, ' ', u.name) LIKE '%" . $search_string . "%')";
@@ -94,8 +95,11 @@ class requestActions extends sfActions
       foreach ($users as $user):
           $resp[$i]['id']= $user['id'];
           $resp[$i]['name']= $user['name'];
-          $resp[$i]['type']= $user['surname'];
-          $resp[$i]['avatar']= $user['avatar'];
+          $resp[$i]['surname']= $user['surname'];
+          $resp[$i]['status']= $user['state'];
+          if(!empty($user['avatar'])){
+            $resp[$i]['avatar']= image_path('avatar/'.$user['avatar'],true);
+          }
           $resp[$i]['place_id']= $user['place_id'];
           $resp[$i]['created_at']= $user['created_at'];
           $i++;
@@ -111,6 +115,7 @@ class requestActions extends sfActions
   
   public function executeGet_people_in_safe_place(sfWebRequest $request)
   {
+      $this->getContext()->getConfiguration()->loadHelpers('Asset');
       $place_id = $request->getParameter('id');
       $users = usersTable::getInstance()->findBy('place_id',$place_id);
       $i = 0;
@@ -119,8 +124,10 @@ class requestActions extends sfActions
           $resp[$i]['id']= $user['id'];
           $resp[$i]['name']= $user['name'];
           $resp[$i]['surname']= $user['surname'];
-          $resp[$i]['avatar']= $user['avatar'];
-          $resp[$i]['state']= $user['state'];
+          if(!empty($user['avatar'])){
+              $resp[$i]['avatar']= image_path('avatar/'.$user['avatar'],true);
+          }
+          $resp[$i]['status']= $user['state'];
           $resp[$i]['created_at']= $user['created_at'];
           $i++;
       endforeach;
@@ -223,19 +230,32 @@ class requestActions extends sfActions
   {
       $nome = $request->getParameter('name');
       $cognome = $request->getParameter('surname');
+      $state = $request->getParameter('status');
       $avatar = $request->getParameter('avatar');
       $place_id = $request->getParameter('place_id');
       
+      foreach ($request->getFiles() as $uploadedFile) {
+        $pi = pathinfo($uploadedFile["name"]);
+        $tmpFile = uniqid($pi["filename"] . '-', true) . '.' . $pi['extension'];
+        $tmpFullFile = realpath('images/avatar') . '/' . $tmpFile;
+        $chkUplodedFile = move_uploaded_file($uploadedFile["tmp_name"], $tmpFullFile);
+      }
+        
+      $pi = pathinfo($tmpFile);
       $user = new users();
       $user['name'] = $nome;
       $user['surname'] = $cognome;
-      //$user['avatar'] = $avatar;
+      $user['state'] = $state;
+      $user['avatar'] = $tmpFile;
       $user['place_id'] = $place_id;
       $user->save();
       
       return $this->renderText(json_encode(array('save'=>'ok')));
   }
   
-  
+  public function executeTestAdd(sfWebRequest $request)
+  {
+      
+  }
   
 }

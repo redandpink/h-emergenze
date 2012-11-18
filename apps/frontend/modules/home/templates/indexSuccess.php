@@ -1,6 +1,7 @@
 <script>
     $(window).load(function() {
         load();
+        doPoll();
     });
     
     function load() {
@@ -38,6 +39,14 @@
          });
          });
         }
+        
+        function doPoll(){
+            $.post('<?php echo url_for('home/checkState')?>', function(data) {
+                setTimeout(doPoll,5000);
+            });
+        }
+
+
 </script>
 
 <div id="map" style="width: 1000px; height: 400px; margin:0px auto;"></div>

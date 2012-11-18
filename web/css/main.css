@@ -1,6 +1,59 @@
-html {margin:0px; padding:0px;}
-body {margin:0px; padding:0px; background:#000; }
-#wrapper { width:1000px; height:100%; position:relative; margin:0 auto; padding:0; background: #fff;}
-#header{ padding: 20px;}
+html {margin:0px; padding:0px; width:100%;}
+body {margin:0px; padding:0px; background:#FFF; color:#EEE; width:100%;font-family: 'Trebuchet Ms';background:url('http://fc07.deviantart.net/fs40/f/2009/033/3/c/Lamborghini_Murcielago_Tribal_by_Manuel_Style.jpg');}
+#wrapper { width:100%; height:100%; position:relative; margin:0 auto; padding:0; }
+#header{ padding: 0px; width:100%; height:90px; background: #000; 
+         opacity:0.8;position:absolute;top:0px;left:0px;
+         z-index:100;
+}
 h1{ margin: 0px; font-family: 'Arvo',serif; font-size: 40px; color: #d33; }
 .clr{clear: both;}
+
+.offside{
+    font-family: 'Offside', cursive;
+}
+
+#menu{
+    float:right;
+    margin:30px 40px 0px 0px;
+    border:solid 0px #C00; 
+}
+
+#menu a{
+    float:right;
+     margin-right:20px;
+}
+
+#map{
+    width:100%;
+    height:400px;
+    position:relative;
+    z-index: 1;
+    background:#C00;
+}
+#infos{
+    position:absolute;
+    top:90px;
+    right:0px;
+    z-index:2;
+    width:20%;
+    background: #000; opacity:0.8;
+}
+#content{
+    position:relative;
+}
+
+a{
+    font-size:14px;
+    color:#EEE;
+    text-decoration:none;}
+
+a:hover{
+    color:#FFF;
+    text-decoration:underline;}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}

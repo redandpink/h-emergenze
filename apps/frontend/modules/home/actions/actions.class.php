@@ -82,4 +82,9 @@ class homeActions extends sfActions
       
      return $this->renderText(json_encode($warning));
   }
+  
+  public function executeLayout(sfWebRequest $request)
+  {
+      
+  }
 }

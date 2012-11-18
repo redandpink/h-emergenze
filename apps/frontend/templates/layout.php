@@ -13,9 +13,17 @@
   <body>
       <div id="wrapper">
           <div id="header">
-              <h1>
+              <div style="padding:18px 30px;" class="left">
+              <h1 class="offside">
                   H-Emergenze
               </h1>
+              </div>
+              <div id="menu" class="right">
+                  <a href="#">Donazioni</a>
+                  <a href="#">Info &amp; Contatti</a>
+                  <a href="/home/sensors">Sensori</a>
+                  <a href="/">Mappa</a>
+              </div>
           </div>
           <div id="content">
               <?php echo $sf_content ?>

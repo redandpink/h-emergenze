@@ -11658,3 +11658,814 @@ Nov 18 12:21:51 symfony [info] {sfWebDebugLogger} Action "home/checkState" 32.44
 Nov 18 12:21:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (5)
 Nov 18 12:21:51 symfony [info] {sfWebDebugLogger} View "None" for "home/checkState" 0.01 ms (1)
 Nov 18 12:21:51 symfony [info] {sfWebResponse} Send content (87 o)
+Nov 18 12:32:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /request with parameters array (  'module' => 'request',  'action' => 'index',)
+Nov 18 12:32:24 symfony [info] {sfFrontWebController} Action "request/index" does not exist
+Nov 18 12:32:24 symfony [err] {sfError404Exception} Action "request/index" does not exist.
+Nov 18 12:32:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 12:32:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:32:24 symfony [info] {sfWebDebugLogger} Configuration 219.97 ms (5)
+Nov 18 12:32:24 symfony [info] {sfWebDebugLogger} Factories 187.70 ms (1)
+Nov 18 12:32:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/layout with parameters array (  'module' => 'request',  'action' => 'layout',)
+Nov 18 12:32:31 symfony [info] {sfFrontWebController} Action "request/layout" does not exist
+Nov 18 12:32:31 symfony [err] {sfError404Exception} Action "request/layout" does not exist.
+Nov 18 12:32:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 12:32:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:32:31 symfony [info] {sfWebDebugLogger} Configuration 2.87 ms (5)
+Nov 18 12:32:31 symfony [info] {sfWebDebugLogger} Factories 18.64 ms (1)
+Nov 18 12:33:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /request/layout with parameters array (  'module' => 'request',  'action' => 'layout',)
+Nov 18 12:33:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:33:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:33:09 symfony [info] {requestActions} Call "requestActions->executeLayout()"
+Nov 18 12:33:09 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/request/templates/layoutSuccess.php"
+Nov 18 12:33:09 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:33:09 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:33:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:33:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:33:09 symfony [info] {sfWebDebugLogger} Configuration 26.90 ms (10)
+Nov 18 12:33:09 symfony [info] {sfWebDebugLogger} Factories 15.58 ms (1)
+Nov 18 12:33:09 symfony [info] {sfWebDebugLogger} Action "request/layout" 0.32 ms (1)
+Nov 18 12:33:09 symfony [info] {sfWebDebugLogger} View "Success" for "request/layout" 17.38 ms (1)
+Nov 18 12:33:09 symfony [info] {sfWebResponse} Send content (29364 o)
+Nov 18 12:33:19 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/request/" (/).
+Nov 18 12:33:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 12:33:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:33:19 symfony [info] {sfWebDebugLogger} Configuration 1.45 ms (5)
+Nov 18 12:33:19 symfony [info] {sfWebDebugLogger} Factories 11.39 ms (1)
+Nov 18 12:33:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/home/" (/).
+Nov 18 12:33:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 12:33:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:33:39 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (5)
+Nov 18 12:33:39 symfony [info] {sfWebDebugLogger} Factories 11.41 ms (1)
+Nov 18 12:33:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 12:33:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:33:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:33:41 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 12:33:41 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 12:33:41 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:33:41 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:33:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:33:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:33:41 symfony [info] {sfWebDebugLogger} Configuration 27.99 ms (10)
+Nov 18 12:33:41 symfony [info] {sfWebDebugLogger} Factories 13.66 ms (1)
+Nov 18 12:33:41 symfony [info] {sfWebDebugLogger} Action "home/index" 0.32 ms (1)
+Nov 18 12:33:41 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 16.51 ms (1)
+Nov 18 12:33:41 symfony [info] {sfWebResponse} Send content (31108 o)
+Nov 18 12:33:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 12:33:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 12:33:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:33:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:33:41 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 12:33:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 12:33:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 12:33:41 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'h-emergenze.sensor_event' doesn't exist. Failing Query: "SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1"
+Nov 18 12:33:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 12:33:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:33:41 symfony [info] {sfWebDebugLogger} Configuration 3.06 ms (8)
+Nov 18 12:33:41 symfony [info] {sfWebDebugLogger} Factories 19.53 ms (1)
+Nov 18 12:33:42 symfony [info] {sfWebDebugLogger} Action "home/checkState" 379.02 ms (1)
+Nov 18 12:33:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Nov 18 12:33:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:33:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:33:42 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 12:33:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 12:33:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 12:33:42 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'h-emergenze.places' doesn't exist. Failing Query: "SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p"
+Nov 18 12:33:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 12:33:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:33:42 symfony [info] {sfWebDebugLogger} Configuration 2.73 ms (8)
+Nov 18 12:33:42 symfony [info] {sfWebDebugLogger} Factories 409.11 ms (1)
+Nov 18 12:33:42 symfony [info] {sfWebDebugLogger} Action "home/markers" 524.49 ms (1)
+Nov 18 12:33:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Nov 18 12:34:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Nov 18 12:34:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:34:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:34:14 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Nov 18 12:34:14 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/indexSuccess.php"
+Nov 18 12:34:14 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:34:14 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:34:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:34:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:34:14 symfony [info] {sfWebDebugLogger} Configuration 2.61 ms (9)
+Nov 18 12:34:14 symfony [info] {sfWebDebugLogger} Factories 17.35 ms (1)
+Nov 18 12:34:14 symfony [info] {sfWebDebugLogger} Action "home/index" 0.33 ms (1)
+Nov 18 12:34:14 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 9.42 ms (1)
+Nov 18 12:34:14 symfony [info] {sfWebResponse} Send content (31136 o)
+Nov 18 12:34:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/checkState with parameters array (  'module' => 'home',  'action' => 'checkState',)
+Nov 18 12:34:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:34:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:34:15 symfony [info] {homeActions} Call "homeActions->executeCheckState()"
+Nov 18 12:34:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 12:34:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1 - ()
+Nov 18 12:34:15 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'h-emergenze.sensor_event' doesn't exist. Failing Query: "SELECT s.id AS s__id, s.temp AS s__temp, s.water AS s__water, s.gas AS s__gas, s.earthquake AS s__earthquake, s.description AS s__description, s.place_id AS s__place_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sensor_event s WHERE (s.place_id = 2) ORDER BY s.created_at desc LIMIT 1"
+Nov 18 12:34:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/markers with parameters array (  'module' => 'home',  'action' => 'markers',)
+Nov 18 12:34:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 12:34:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Configuration 2.31 ms (8)
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Factories 12.92 ms (1)
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Action "home/checkState" 233.57 ms (1)
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Nov 18 12:34:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:34:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:34:15 symfony [info] {homeActions} Call "homeActions->executeMarkers()"
+Nov 18 12:34:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 18 12:34:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p - ()
+Nov 18 12:34:15 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'h-emergenze.places' doesn't exist. Failing Query: "SELECT p.id AS p__id, p.name AS p__name, p.place_type AS p__place_type, p.latitude AS p__latitude, p.longitude AS p__longitude FROM places p"
+Nov 18 12:34:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 18 12:34:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Configuration 2.43 ms (8)
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Factories 187.37 ms (1)
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Action "home/markers" 226.21 ms (1)
+Nov 18 12:34:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Nov 18 12:34:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /layout with parameters array (  'module' => 'layout',  'action' => 'index',)
+Nov 18 12:34:22 symfony [info] {sfFrontWebController} Action "layout/index" does not exist
+Nov 18 12:34:22 symfony [err] {sfError404Exception} Action "layout/index" does not exist.
+Nov 18 12:34:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 18 12:34:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:34:22 symfony [info] {sfWebDebugLogger} Configuration 1.32 ms (5)
+Nov 18 12:34:22 symfony [info] {sfWebDebugLogger} Factories 12.03 ms (1)
+Nov 18 12:34:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:34:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:34:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:34:31 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:34:31 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:34:31 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:34:31 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:34:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:34:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:34:31 symfony [info] {sfWebDebugLogger} Configuration 3.30 ms (9)
+Nov 18 12:34:31 symfony [info] {sfWebDebugLogger} Factories 10.62 ms (1)
+Nov 18 12:34:31 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.31 ms (1)
+Nov 18 12:34:31 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.06 ms (1)
+Nov 18 12:34:31 symfony [info] {sfWebResponse} Send content (29266 o)
+Nov 18 12:35:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:35:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:35:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:35:39 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:35:39 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:35:39 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:35:39 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:35:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:35:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:35:39 symfony [info] {sfWebDebugLogger} Configuration 2.60 ms (9)
+Nov 18 12:35:39 symfony [info] {sfWebDebugLogger} Factories 12.17 ms (1)
+Nov 18 12:35:39 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.30 ms (1)
+Nov 18 12:35:39 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.07 ms (1)
+Nov 18 12:35:39 symfony [info] {sfWebResponse} Send content (29298 o)
+Nov 18 12:36:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:36:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:36:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:36:49 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:36:49 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:36:49 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:36:49 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:36:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:36:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:36:49 symfony [info] {sfWebDebugLogger} Configuration 2.75 ms (9)
+Nov 18 12:36:49 symfony [info] {sfWebDebugLogger} Factories 16.16 ms (1)
+Nov 18 12:36:49 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 12:36:49 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.98 ms (1)
+Nov 18 12:36:49 symfony [info] {sfWebResponse} Send content (29298 o)
+Nov 18 12:36:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:36:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:36:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:36:56 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:36:56 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:36:56 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:36:56 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:36:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:36:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:36:56 symfony [info] {sfWebDebugLogger} Configuration 3.21 ms (9)
+Nov 18 12:36:56 symfony [info] {sfWebDebugLogger} Factories 21.42 ms (1)
+Nov 18 12:36:56 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.39 ms (1)
+Nov 18 12:36:56 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.72 ms (1)
+Nov 18 12:36:56 symfony [info] {sfWebResponse} Send content (29297 o)
+Nov 18 12:37:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:37:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:37:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:37:20 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:37:20 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:37:20 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:37:20 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:37:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:37:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:37:20 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (9)
+Nov 18 12:37:20 symfony [info] {sfWebDebugLogger} Factories 17.79 ms (1)
+Nov 18 12:37:20 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 12:37:20 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.04 ms (1)
+Nov 18 12:37:21 symfony [info] {sfWebResponse} Send content (29298 o)
+Nov 18 12:38:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:38:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:38:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:38:12 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:38:12 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:38:12 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:38:12 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:38:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:38:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:38:12 symfony [info] {sfWebDebugLogger} Configuration 2.97 ms (9)
+Nov 18 12:38:12 symfony [info] {sfWebDebugLogger} Factories 12.38 ms (1)
+Nov 18 12:38:12 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.38 ms (1)
+Nov 18 12:38:12 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.76 ms (1)
+Nov 18 12:38:12 symfony [info] {sfWebResponse} Send content (29299 o)
+Nov 18 12:38:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:38:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:38:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:38:34 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:38:34 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:38:34 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:38:34 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:38:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:38:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:38:34 symfony [info] {sfWebDebugLogger} Configuration 3.31 ms (9)
+Nov 18 12:38:34 symfony [info] {sfWebDebugLogger} Factories 17.52 ms (1)
+Nov 18 12:38:34 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.35 ms (1)
+Nov 18 12:38:34 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.41 ms (1)
+Nov 18 12:38:34 symfony [info] {sfWebResponse} Send content (29298 o)
+Nov 18 12:38:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:38:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:38:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:38:55 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:38:55 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:38:55 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:38:55 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:38:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:38:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:38:55 symfony [info] {sfWebDebugLogger} Configuration 2.62 ms (9)
+Nov 18 12:38:55 symfony [info] {sfWebDebugLogger} Factories 15.39 ms (1)
+Nov 18 12:38:55 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.36 ms (1)
+Nov 18 12:38:55 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.88 ms (1)
+Nov 18 12:38:55 symfony [info] {sfWebResponse} Send content (29299 o)
+Nov 18 12:41:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:41:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:41:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:41:40 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:41:40 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:41:40 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:41:40 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:41:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:41:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:41:40 symfony [info] {sfWebDebugLogger} Configuration 2.48 ms (9)
+Nov 18 12:41:40 symfony [info] {sfWebDebugLogger} Factories 12.61 ms (1)
+Nov 18 12:41:40 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 12:41:40 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.57 ms (1)
+Nov 18 12:41:40 symfony [info] {sfWebResponse} Send content (29407 o)
+Nov 18 12:43:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:43:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:43:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:43:19 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:43:19 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:43:19 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:19 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:43:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:43:19 symfony [info] {sfWebDebugLogger} Configuration 2.59 ms (9)
+Nov 18 12:43:19 symfony [info] {sfWebDebugLogger} Factories 16.35 ms (1)
+Nov 18 12:43:19 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.36 ms (1)
+Nov 18 12:43:19 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.19 ms (1)
+Nov 18 12:43:19 symfony [info] {sfWebResponse} Send content (29408 o)
+Nov 18 12:43:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:43:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:43:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:43:26 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:43:26 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:43:26 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:26 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:43:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:43:26 symfony [info] {sfWebDebugLogger} Configuration 2.61 ms (9)
+Nov 18 12:43:26 symfony [info] {sfWebDebugLogger} Factories 12.96 ms (1)
+Nov 18 12:43:26 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 12:43:26 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.87 ms (1)
+Nov 18 12:43:26 symfony [info] {sfWebResponse} Send content (29408 o)
+Nov 18 12:43:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:43:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:43:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:43:42 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:43:42 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:43:42 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:42 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:43:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:43:42 symfony [info] {sfWebDebugLogger} Configuration 3.55 ms (9)
+Nov 18 12:43:42 symfony [info] {sfWebDebugLogger} Factories 10.88 ms (1)
+Nov 18 12:43:42 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 12:43:42 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.43 ms (1)
+Nov 18 12:43:42 symfony [info] {sfWebResponse} Send content (29408 o)
+Nov 18 12:43:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:43:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:43:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:43:50 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:43:50 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:43:50 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:50 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:43:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:43:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:43:50 symfony [info] {sfWebDebugLogger} Configuration 2.78 ms (9)
+Nov 18 12:43:50 symfony [info] {sfWebDebugLogger} Factories 13.38 ms (1)
+Nov 18 12:43:50 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.37 ms (1)
+Nov 18 12:43:50 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 9.50 ms (1)
+Nov 18 12:43:50 symfony [info] {sfWebResponse} Send content (29409 o)
+Nov 18 12:44:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:44:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:44:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:44:29 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:44:29 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:44:29 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:29 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:44:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:44:29 symfony [info] {sfWebDebugLogger} Configuration 4.08 ms (9)
+Nov 18 12:44:29 symfony [info] {sfWebDebugLogger} Factories 18.44 ms (1)
+Nov 18 12:44:29 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.40 ms (1)
+Nov 18 12:44:29 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 9.78 ms (1)
+Nov 18 12:44:29 symfony [info] {sfWebResponse} Send content (29472 o)
+Nov 18 12:44:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:44:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:44:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:44:36 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:44:36 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:44:36 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:36 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:44:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:44:36 symfony [info] {sfWebDebugLogger} Configuration 2.64 ms (9)
+Nov 18 12:44:36 symfony [info] {sfWebDebugLogger} Factories 11.61 ms (1)
+Nov 18 12:44:36 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.36 ms (1)
+Nov 18 12:44:36 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.17 ms (1)
+Nov 18 12:44:36 symfony [info] {sfWebResponse} Send content (29471 o)
+Nov 18 12:44:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:44:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:44:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:44:40 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:44:40 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:44:40 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:40 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:44:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:44:40 symfony [info] {sfWebDebugLogger} Configuration 4.84 ms (9)
+Nov 18 12:44:40 symfony [info] {sfWebDebugLogger} Factories 14.80 ms (1)
+Nov 18 12:44:40 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.31 ms (1)
+Nov 18 12:44:40 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.31 ms (1)
+Nov 18 12:44:40 symfony [info] {sfWebResponse} Send content (29470 o)
+Nov 18 12:44:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:44:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:44:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:44:57 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:44:57 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:44:58 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:58 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:44:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:44:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:44:58 symfony [info] {sfWebDebugLogger} Configuration 2.64 ms (9)
+Nov 18 12:44:58 symfony [info] {sfWebDebugLogger} Factories 15.38 ms (1)
+Nov 18 12:44:58 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 12:44:58 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.88 ms (1)
+Nov 18 12:44:58 symfony [info] {sfWebResponse} Send content (29471 o)
+Nov 18 12:45:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:45:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:45:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:45:06 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:45:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:45:06 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:45:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:45:06 symfony [info] {sfWebDebugLogger} Configuration 2.69 ms (9)
+Nov 18 12:45:06 symfony [info] {sfWebDebugLogger} Factories 15.74 ms (1)
+Nov 18 12:45:06 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 12:45:06 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.87 ms (1)
+Nov 18 12:45:06 symfony [info] {sfWebResponse} Send content (29476 o)
+Nov 18 12:45:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:45:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:45:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:45:09 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:45:09 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:45:09 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:09 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:45:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:45:09 symfony [info] {sfWebDebugLogger} Configuration 4.64 ms (9)
+Nov 18 12:45:09 symfony [info] {sfWebDebugLogger} Factories 14.61 ms (1)
+Nov 18 12:45:09 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.38 ms (1)
+Nov 18 12:45:09 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.69 ms (1)
+Nov 18 12:45:10 symfony [info] {sfWebResponse} Send content (29476 o)
+Nov 18 12:45:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:45:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:45:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:45:16 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:45:16 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:45:16 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:16 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:45:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:45:16 symfony [info] {sfWebDebugLogger} Configuration 2.61 ms (9)
+Nov 18 12:45:16 symfony [info] {sfWebDebugLogger} Factories 16.51 ms (1)
+Nov 18 12:45:16 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.38 ms (1)
+Nov 18 12:45:16 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.97 ms (1)
+Nov 18 12:45:16 symfony [info] {sfWebResponse} Send content (29476 o)
+Nov 18 12:45:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:45:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:45:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:45:22 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:45:22 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:45:22 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:22 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:45:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:45:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:45:22 symfony [info] {sfWebDebugLogger} Configuration 2.90 ms (9)
+Nov 18 12:45:22 symfony [info] {sfWebDebugLogger} Factories 21.09 ms (1)
+Nov 18 12:45:22 symfony [info] {sfWebDebugLogger} Action "home/layout" 2.73 ms (1)
+Nov 18 12:45:22 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 17.50 ms (1)
+Nov 18 12:45:22 symfony [info] {sfWebResponse} Send content (29478 o)
+Nov 18 12:56:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:56:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:56:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:56:24 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:56:24 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:56:24 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:56:24 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:56:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:56:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:56:24 symfony [info] {sfWebDebugLogger} Configuration 2.50 ms (9)
+Nov 18 12:56:24 symfony [info] {sfWebDebugLogger} Factories 15.80 ms (1)
+Nov 18 12:56:24 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.33 ms (1)
+Nov 18 12:56:24 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.44 ms (1)
+Nov 18 12:56:24 symfony [info] {sfWebResponse} Send content (29746 o)
+Nov 18 12:56:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:56:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:56:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:56:30 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:56:30 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:56:30 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:56:30 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:56:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:56:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:56:30 symfony [info] {sfWebDebugLogger} Configuration 2.46 ms (9)
+Nov 18 12:56:30 symfony [info] {sfWebDebugLogger} Factories 15.12 ms (1)
+Nov 18 12:56:30 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.33 ms (1)
+Nov 18 12:56:30 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.64 ms (1)
+Nov 18 12:56:30 symfony [info] {sfWebResponse} Send content (29746 o)
+Nov 18 12:57:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 12:57:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 12:57:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 12:57:55 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 12:57:55 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 12:57:55 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:57:55 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 12:57:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 12:57:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 12:57:55 symfony [info] {sfWebDebugLogger} Configuration 2.69 ms (9)
+Nov 18 12:57:55 symfony [info] {sfWebDebugLogger} Factories 12.15 ms (1)
+Nov 18 12:57:55 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.31 ms (1)
+Nov 18 12:57:55 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.39 ms (1)
+Nov 18 12:57:56 symfony [info] {sfWebResponse} Send content (29746 o)
+Nov 18 13:00:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:00:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:00:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:00:50 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:00:50 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:00:50 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:00:50 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:00:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:00:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:00:50 symfony [info] {sfWebDebugLogger} Configuration 2.81 ms (9)
+Nov 18 13:00:50 symfony [info] {sfWebDebugLogger} Factories 14.23 ms (1)
+Nov 18 13:00:50 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.35 ms (1)
+Nov 18 13:00:50 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 11.07 ms (1)
+Nov 18 13:00:50 symfony [info] {sfWebResponse} Send content (29749 o)
+Nov 18 13:01:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:01:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:01:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:01:13 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:01:13 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:01:13 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:01:13 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:01:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:01:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:01:13 symfony [info] {sfWebDebugLogger} Configuration 3.28 ms (9)
+Nov 18 13:01:13 symfony [info] {sfWebDebugLogger} Factories 20.35 ms (1)
+Nov 18 13:01:13 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.42 ms (1)
+Nov 18 13:01:13 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 9.16 ms (1)
+Nov 18 13:01:13 symfony [info] {sfWebResponse} Send content (29747 o)
+Nov 18 13:01:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:01:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:01:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:01:30 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:01:30 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:01:30 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:01:30 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:01:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:01:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:01:30 symfony [info] {sfWebDebugLogger} Configuration 4.54 ms (9)
+Nov 18 13:01:30 symfony [info] {sfWebDebugLogger} Factories 22.42 ms (1)
+Nov 18 13:01:30 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.42 ms (1)
+Nov 18 13:01:30 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 10.69 ms (1)
+Nov 18 13:01:30 symfony [info] {sfWebResponse} Send content (29748 o)
+Nov 18 13:01:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:01:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:01:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:01:37 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:01:37 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:01:37 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:01:37 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:01:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:01:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:01:37 symfony [info] {sfWebDebugLogger} Configuration 2.75 ms (9)
+Nov 18 13:01:37 symfony [info] {sfWebDebugLogger} Factories 16.49 ms (1)
+Nov 18 13:01:37 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.38 ms (1)
+Nov 18 13:01:37 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.79 ms (1)
+Nov 18 13:01:37 symfony [info] {sfWebResponse} Send content (29747 o)
+Nov 18 13:02:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:02:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:02:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:02:06 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:02:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:02:06 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:02:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:02:06 symfony [info] {sfWebDebugLogger} Configuration 2.45 ms (9)
+Nov 18 13:02:06 symfony [info] {sfWebDebugLogger} Factories 13.04 ms (1)
+Nov 18 13:02:06 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.41 ms (1)
+Nov 18 13:02:06 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.91 ms (1)
+Nov 18 13:02:06 symfony [info] {sfWebResponse} Send content (29746 o)
+Nov 18 13:02:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:02:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:02:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:02:11 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:02:11 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:02:11 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:11 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:02:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:02:11 symfony [info] {sfWebDebugLogger} Configuration 3.53 ms (9)
+Nov 18 13:02:11 symfony [info] {sfWebDebugLogger} Factories 11.53 ms (1)
+Nov 18 13:02:11 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.36 ms (1)
+Nov 18 13:02:11 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.89 ms (1)
+Nov 18 13:02:11 symfony [info] {sfWebResponse} Send content (29746 o)
+Nov 18 13:02:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:02:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:02:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:02:16 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:02:16 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:02:16 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:16 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:02:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:02:16 symfony [info] {sfWebDebugLogger} Configuration 2.60 ms (9)
+Nov 18 13:02:16 symfony [info] {sfWebDebugLogger} Factories 12.02 ms (1)
+Nov 18 13:02:16 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 13:02:16 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.19 ms (1)
+Nov 18 13:02:16 symfony [info] {sfWebResponse} Send content (29746 o)
+Nov 18 13:02:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:02:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:02:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:02:40 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:02:40 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:02:40 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:40 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:02:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:02:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:02:40 symfony [info] {sfWebDebugLogger} Configuration 2.50 ms (9)
+Nov 18 13:02:40 symfony [info] {sfWebDebugLogger} Factories 11.92 ms (1)
+Nov 18 13:02:40 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.33 ms (1)
+Nov 18 13:02:40 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 11.68 ms (1)
+Nov 18 13:02:40 symfony [info] {sfWebResponse} Send content (29748 o)
+Nov 18 13:04:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:04:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:04:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:04:33 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:04:33 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:04:33 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:04:33 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:04:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:04:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:04:33 symfony [info] {sfWebDebugLogger} Configuration 2.55 ms (9)
+Nov 18 13:04:33 symfony [info] {sfWebDebugLogger} Factories 36.13 ms (1)
+Nov 18 13:04:33 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 13:04:33 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.26 ms (1)
+Nov 18 13:04:33 symfony [info] {sfWebResponse} Send content (29810 o)
+Nov 18 13:05:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:05:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:05:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:05:24 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:05:24 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:05:24 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:05:24 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:05:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:05:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:05:24 symfony [info] {sfWebDebugLogger} Configuration 2.43 ms (9)
+Nov 18 13:05:24 symfony [info] {sfWebDebugLogger} Factories 12.94 ms (1)
+Nov 18 13:05:24 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.30 ms (1)
+Nov 18 13:05:24 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.26 ms (1)
+Nov 18 13:05:24 symfony [info] {sfWebResponse} Send content (29808 o)
+Nov 18 13:06:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:06:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:06:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:06:00 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:06:00 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:06:00 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:06:00 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:06:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:06:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:06:00 symfony [info] {sfWebDebugLogger} Configuration 2.69 ms (9)
+Nov 18 13:06:00 symfony [info] {sfWebDebugLogger} Factories 13.09 ms (1)
+Nov 18 13:06:00 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 13:06:00 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.72 ms (1)
+Nov 18 13:06:00 symfony [info] {sfWebResponse} Send content (29843 o)
+Nov 18 13:06:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:06:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:06:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:06:27 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:06:27 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:06:27 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:06:27 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:06:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:06:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:06:27 symfony [info] {sfWebDebugLogger} Configuration 2.54 ms (9)
+Nov 18 13:06:27 symfony [info] {sfWebDebugLogger} Factories 15.22 ms (1)
+Nov 18 13:06:27 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.38 ms (1)
+Nov 18 13:06:27 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 9.08 ms (1)
+Nov 18 13:06:27 symfony [info] {sfWebResponse} Send content (29810 o)
+Nov 18 13:06:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:06:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:06:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:06:46 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:06:46 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:06:46 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:06:46 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:06:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:06:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:06:46 symfony [info] {sfWebDebugLogger} Configuration 2.65 ms (9)
+Nov 18 13:06:46 symfony [info] {sfWebDebugLogger} Factories 13.34 ms (1)
+Nov 18 13:06:46 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.35 ms (1)
+Nov 18 13:06:46 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.45 ms (1)
+Nov 18 13:06:46 symfony [info] {sfWebResponse} Send content (29809 o)
+Nov 18 13:07:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:07:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:07:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:07:06 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:07:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:07:06 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:07:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:07:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:07:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:07:06 symfony [info] {sfWebDebugLogger} Configuration 2.63 ms (9)
+Nov 18 13:07:06 symfony [info] {sfWebDebugLogger} Factories 15.51 ms (1)
+Nov 18 13:07:06 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 13:07:06 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.31 ms (1)
+Nov 18 13:07:06 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:07:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:07:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:07:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:07:59 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:07:59 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:07:59 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:07:59 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:07:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:07:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:07:59 symfony [info] {sfWebDebugLogger} Configuration 2.63 ms (9)
+Nov 18 13:07:59 symfony [info] {sfWebDebugLogger} Factories 11.30 ms (1)
+Nov 18 13:07:59 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 13:07:59 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.44 ms (1)
+Nov 18 13:07:59 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:08:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:08:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:08:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:08:21 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:08:21 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:08:21 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:08:21 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:08:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:08:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:08:21 symfony [info] {sfWebDebugLogger} Configuration 2.44 ms (9)
+Nov 18 13:08:21 symfony [info] {sfWebDebugLogger} Factories 12.19 ms (1)
+Nov 18 13:08:21 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.46 ms (1)
+Nov 18 13:08:21 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.25 ms (1)
+Nov 18 13:08:21 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:08:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:08:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:08:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:08:42 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:08:42 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:08:42 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:08:42 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:08:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:08:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:08:42 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (9)
+Nov 18 13:08:42 symfony [info] {sfWebDebugLogger} Factories 15.37 ms (1)
+Nov 18 13:08:42 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.36 ms (1)
+Nov 18 13:08:42 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.66 ms (1)
+Nov 18 13:08:42 symfony [info] {sfWebResponse} Send content (29837 o)
+Nov 18 13:08:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:08:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:08:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:08:49 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:08:49 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:08:49 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:08:49 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:08:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:08:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:08:49 symfony [info] {sfWebDebugLogger} Configuration 2.65 ms (9)
+Nov 18 13:08:49 symfony [info] {sfWebDebugLogger} Factories 15.73 ms (1)
+Nov 18 13:08:49 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 13:08:49 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 8.13 ms (1)
+Nov 18 13:08:49 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:09:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:09:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:09:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:09:06 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:09:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:09:06 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:09:06 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:09:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:09:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:09:06 symfony [info] {sfWebDebugLogger} Configuration 2.44 ms (9)
+Nov 18 13:09:06 symfony [info] {sfWebDebugLogger} Factories 10.53 ms (1)
+Nov 18 13:09:06 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 13:09:06 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.27 ms (1)
+Nov 18 13:09:06 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:09:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:09:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:09:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:09:18 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:09:18 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:09:18 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:09:18 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:09:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:09:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:09:18 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (9)
+Nov 18 13:09:18 symfony [info] {sfWebDebugLogger} Factories 10.83 ms (1)
+Nov 18 13:09:18 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.31 ms (1)
+Nov 18 13:09:18 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.85 ms (1)
+Nov 18 13:09:18 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:09:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:09:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:09:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:09:20 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:09:20 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:09:20 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:09:20 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:09:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:09:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:09:20 symfony [info] {sfWebDebugLogger} Configuration 2.42 ms (9)
+Nov 18 13:09:20 symfony [info] {sfWebDebugLogger} Factories 11.95 ms (1)
+Nov 18 13:09:20 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.31 ms (1)
+Nov 18 13:09:20 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.01 ms (1)
+Nov 18 13:09:20 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:10:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:10:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:10:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:10:03 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:10:03 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:10:03 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:03 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:10:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:10:03 symfony [info] {sfWebDebugLogger} Configuration 2.89 ms (9)
+Nov 18 13:10:03 symfony [info] {sfWebDebugLogger} Factories 21.09 ms (1)
+Nov 18 13:10:03 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.39 ms (1)
+Nov 18 13:10:03 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 18.57 ms (1)
+Nov 18 13:10:03 symfony [info] {sfWebResponse} Send content (29839 o)
+Nov 18 13:10:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:10:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:10:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:10:11 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:10:11 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:10:11 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:11 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:10:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:10:11 symfony [info] {sfWebDebugLogger} Configuration 2.82 ms (9)
+Nov 18 13:10:11 symfony [info] {sfWebDebugLogger} Factories 16.85 ms (1)
+Nov 18 13:10:11 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 13:10:11 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.68 ms (1)
+Nov 18 13:10:11 symfony [info] {sfWebResponse} Send content (29837 o)
+Nov 18 13:10:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:10:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:10:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:10:20 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:10:20 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:10:20 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:20 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:10:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:10:20 symfony [info] {sfWebDebugLogger} Configuration 2.54 ms (9)
+Nov 18 13:10:20 symfony [info] {sfWebDebugLogger} Factories 15.26 ms (1)
+Nov 18 13:10:20 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.34 ms (1)
+Nov 18 13:10:20 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 7.87 ms (1)
+Nov 18 13:10:20 symfony [info] {sfWebResponse} Send content (29836 o)
+Nov 18 13:10:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /home/layout with parameters array (  'module' => 'home',  'action' => 'layout',)
+Nov 18 13:10:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 18 13:10:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 18 13:10:24 symfony [info] {homeActions} Call "homeActions->executeLayout()"
+Nov 18 13:10:24 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/modules/home/templates/layoutSuccess.php"
+Nov 18 13:10:24 symfony [info] {sfPHPView} Decorate content with "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:24 symfony [info] {sfPHPView} Render "/Users/kurtommy/NetBeansProjects/h-emergenze/apps/frontend/templates/layout.php"
+Nov 18 13:10:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 18 13:10:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 18 13:10:24 symfony [info] {sfWebDebugLogger} Configuration 2.56 ms (9)
+Nov 18 13:10:24 symfony [info] {sfWebDebugLogger} Factories 22.78 ms (1)
+Nov 18 13:10:24 symfony [info] {sfWebDebugLogger} Action "home/layout" 0.32 ms (1)
+Nov 18 13:10:24 symfony [info] {sfWebDebugLogger} View "Success" for "home/layout" 6.98 ms (1)
+Nov 18 13:10:24 symfony [info] {sfWebResponse} Send content (29836 o)
